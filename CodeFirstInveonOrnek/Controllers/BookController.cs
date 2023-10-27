@@ -9,7 +9,7 @@ namespace CodeFirstInveonOrnek.Controllers
     [ApiController]
     public class BookController : ControllerBase
     {
-        ApplicationDbContext _context;
+        private readonly ApplicationDbContext _context;
 
         public BookController(ApplicationDbContext context)
         {
